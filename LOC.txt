@@ -1,0 +1,10 @@
+Lines of Code explanation:
+
+Our current lines of code estimate is around 1050 lines.
+However, there are around 5 functions we wrote that aren't used because we found better ways to implement the game. 
+
+The check_phase3, check_ph_inv2, and check_words_helper2 in main.ml, and make_a_lst and json_anagram functions in game.ml are functions that are used to make API calls that generate all possible anagrams.
+We don't mean to keep them in to inflate the number of lines or as "dead code", but because we would like to use them later and spent a lot of time working on those API calls.
+
+We keep them in there for the next iteration of the game, but because they aren't explicitly called, we subtract those lines of code from our total number,
+And we get roughly 975 lines of code.

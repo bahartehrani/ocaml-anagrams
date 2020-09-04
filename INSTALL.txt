@@ -1,0 +1,17 @@
+To run and play the game:
+
+Before playing, because this game makes API calls, need to install:
+
+opam install cohttp lwt js_of_ocaml
+
+opam install cohttp-lwt-unix
+
+opam install lwt
+
+1. Open terminal under file 'game'.
+
+2. Type 'make play' to build and start the game.
+
+3. When prompted, enter filename 'easy.json', or 'medium.json', or 'hard.json'
+
+4. Follow the instructions prompted throughout the game.
